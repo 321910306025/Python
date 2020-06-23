@@ -26,13 +26,13 @@ print('Modulus of ',num1 ,'and' ,num2 ,'is :',modulus)
 Output:
 Enter First number: 9
 Enter Second number: 5
-Sum of 9 and 5 is: 14
-Difference of 9 and 5 is: 4
-Product of 9 and 5 is: 45
+Sum of 9 and 5 is: 14.0
+Difference of 9 and 5 is: 4.0
+Product of 9 and 5 is: 45.0
 Division of 9 and 5 is: 1.8
-Floor division of 9 and 5 is: 1
-Exponent of 9 and 5 is: 59049
-Modulus of 9 and 5 is: 4
+Floor division of 9 and 5 is: 1.0
+Exponent of 9 and 5 is: 59049.0
+Modulus of 9 and 5 is: 4.0
 
 
 2. Python program to calculate simple interest.
@@ -47,6 +47,7 @@ Enter the principal amount: 100
 Enter the number of years: 5
 Enter the rate of interest : 5
 Simple interest : 25.0
+
 
 3. Python program to calculate area of a circle. 
 Program:
@@ -63,6 +64,7 @@ Output:
 Enter the radius of the circle: 3
 Area of the circle is: 28.26
 
+
 4. Python program to calculate area of a triangle.
 Program:
 a = float(input('Enter first side: '))
@@ -77,6 +79,7 @@ Enter second side: 6
 Enter third side: 7
 The area of the triangle is: 14.70
 
+
 5. Python program to temperature in Celsius to Fahrenheit.
 Program:
 celsius = float(input("Enter temperature in celsius: "))
@@ -84,7 +87,8 @@ fahrenheit = (celsius * 9/5) + 32
 print('%.2f celsius is: %0.2f fahrenheit' %(celsius, fahrenheit))
 Output:
 Enter temperature in celcius: 37
-37.00 celcius is: 98.60 fahrenheit'
+37.00 celcius is: 98.60 fahrenheit
+
 
 6. Python program to calculate area of rectangle.
 Program:
@@ -97,6 +101,7 @@ Enter the width of a rectangle: 6
 Enter the height of a rectangle: 4
 Area of rectangle is: 24.00
 
+
 7. Python program to calculate perimeter of a square.
 Program:
 s=int(input("Enter Side : "))
@@ -104,7 +109,8 @@ perimeter=4*s
 print("Perimeter of square: ",perimeter)
 Output:
 Enter side: 5
-Perimeter of square is: 20
+Perimeter of square is: 20.0
+
 
 8. Python program to calculate circumference of a circle.
 Program:
@@ -115,6 +121,7 @@ print("Circumference of the circle is : %.2f" % circumference)
 Output:
 Enter the radius of the circle: 10
 Circumference of the circle is: 62.83
+
 
 9. Python program to swap two numbers.
 Program:
@@ -128,10 +135,22 @@ print('The value of y after swapping: {}'.format(y))
 Output:
 Enter the value of X: 3
 Enter the value of y: 2
-The value of x after swapping is: 2
-The value of y after swapping is: 3
+The value of x after swapping is: 2.0
+The value of y after swapping is: 3.0
 
-10. Python program to take two inputs from user and check whether they are equal or not. 
+
+10. Python program to add two numbers.
+Program:
+num1 = input('Enter first number: ')
+num2 = input('Enter second number: ')
+sum = float(num1) + float(num2)
+print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+Output:
+Enter first number: 1.5
+Enter second number: 6.3
+The sum of 1.5 and 6.3 is 7.8
+
+11. Python program to take two inputs from user and check whether they are equal or not. 
 Program:
 a = input("Enter the first number: ")
 b = input("Enter the second number: ")
@@ -144,7 +163,7 @@ Enter the first number: 5
 Enter the second number: 8
 Your input is not equal.
 
-11. Python program to find square root.
+12. Python program to find square root.
 Program:
 import math
 number = float(input("Enter any numeric Value : "))
@@ -154,7 +173,7 @@ Output:
 Enter any numeric value: 9
 The Square Root of a given number 9.0 = 3.0
 
-12. Python program to solve quadratic equation.
+13. Python program to solve quadratic equation.
 Program: 
 import cmath  
 a = float(input('Enter a: '))  
