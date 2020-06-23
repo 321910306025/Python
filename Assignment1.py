@@ -131,5 +131,44 @@ Enter the value of y: 2
 The value of x after swapping is: 2
 The value of y after swapping is: 3
 
+10. Python program to take two inputs from user and check whether they are equal or not. 
+Program:
+a = input("Enter the first number: ")
+b = input("Enter the second number: ")
+if a == b:
+  print "Both inputs are equal"
+else:
+  print "Your input is not equal."
+Output:
+Enter the first number: 5
+Enter the second number: 8
+Your input is not equal.
+
+11. Python program to find square root.
+Program:
+import math
+number = float(input("Enter any numeric Value : "))
+squareRoot = math.sqrt(number)
+print("The Square Root of a given number {0}  = {1}".format(number, squareRoot))
+Output:
+Enter any numeric value: 9
+The Square Root of a given number 9.0 = 3.0
+
+12. Python program to solve quadratic equation.
+Program: 
+import cmath  
+a = float(input('Enter a: '))  
+b = float(input('Enter b: '))  
+c = float(input('Enter c: '))  
+d = (b**2) - (4*a*c)  
+sol1 = (-b-cmath.sqrt(d))/(2*a)  
+sol2 = (-b+cmath.sqrt(d))/(2*a)  
+print('The solutions are {0} and {1}'.format(sol1,sol2))
+Output: 
+Enter a: 8
+Enter b: 16
+Enter c: 8
+The solutions are (-1+0j) and (-1+0j)
+
 
 
