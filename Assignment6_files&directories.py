@@ -76,5 +76,12 @@ Directory successfully deleted.
 
 5. Python program to create a list and access the elements in the list.
 Program:
-
+List = ["I", "am", "Heena"] 
+print("Accessing element from the list") 
+print(List[0])  
+print(List[2])
+Output:
+Accessing element from the list
+I
+Heena
 
