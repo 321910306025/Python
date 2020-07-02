@@ -28,20 +28,42 @@ Testfile.txt.10 (start of file)
 
 3. Python program to read the contents of a file using with statement.
 Program:
-L = ["Heena\n", "is\n", "a\n", "good\n", "girl\n"] 
+L = ["Heena\n", "is\n", "a\n", "good\n", "girl.\n"] 
 with open("myfile.txt", "w") as file1:
-    file1.write("Hello \n") 
+    file1.write("I am Heena.\n") 
     file1.writelines(L) 
     file1.close()
 with open("myfile.txt", "r+") as file1: 
     print(file1.read())
 Output:
+I am Heena.
 Heena 
 is
 a
 good
-girl
+girl.
 
 
 4. Python program to remove file and directory.
 Program:
+#removing a file
+import os 
+print ("Enter 'quit' for exiting the program") 
+filename = input('Enter the name of the file, that is to be deleted : ') 
+if filename == 'quit': 
+    exit() 
+else: 
+    print ('\nStarting the removal of the file !') 
+    os.remove(filename) 
+    print ('\nFile, ', filename, 'is successfully deleted.')
+Output:
+Enter 'quit' for exiting the program
+Enter the name of the file, that is to be deleted : Testfile.txt
+Starting the removal of the file !
+File, Testfile.txt is successfully deleted.
+
+#removing a directory
+
+
+
+
