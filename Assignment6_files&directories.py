@@ -62,8 +62,19 @@ Enter the name of the file, that is to be deleted : Testfile.txt
 Starting the removal of the file !
 File, Testfile.txt is successfully deleted.
 
-#removing a directory
+#removing an empty directory
+import os
+os.rmdir("/github/python/assignments")
+print('Directory successfully deleted.')
+#removing a directory and contents
+import shutil
+shutil.rmtree("/home/heena/cache")
+print('Directory successfully deleted.')
+Output:
+Directory successfully deleted.
 
 
+5. Python program to create a list and access the elements in the list.
+Program:
 
 
